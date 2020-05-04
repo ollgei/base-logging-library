@@ -230,7 +230,7 @@ public interface Log {
      *
      * @param arg1 arg1
      */
-    default void trace1(String format, Object arg1) {
+    default void trace0(String format, Object arg1) {
         trace0(() -> String.format(format, arg1));
     }
 
@@ -240,7 +240,7 @@ public interface Log {
      * @param arg1 arg1
      * @param arg2 arg2
      */
-    default void trace2(String format, Object arg1, Object arg2) {
+    default void trace0(String format, Object arg1, Object arg2) {
         trace0(() -> String.format(format, arg1, arg2));
     }
 
@@ -251,7 +251,7 @@ public interface Log {
      * @param arg2 arg2
      * @param arg3 arg3
      */
-    default void trace3(String format, Object arg1, Object arg2, Object arg3) {
+    default void trace0(String format, Object arg1, Object arg2, Object arg3) {
         trace0(() -> String.format(format, arg1, arg2, arg3));
     }
 
@@ -263,7 +263,7 @@ public interface Log {
      * @param arg3 arg3
      * @param arg4 arg4
      */
-    default void trace4(String format, Object arg1, Object arg2, Object arg3, Object arg4) {
+    default void trace0(String format, Object arg1, Object arg2, Object arg3, Object arg4) {
         trace0(() -> String.format(format, arg1, arg2, arg3, arg4));
     }
 
@@ -276,7 +276,7 @@ public interface Log {
      * @param arg4 arg4
      * @param arg5 arg5
      */
-    default void trace5(String format, Object arg1, Object arg2, Object arg3, Object arg4, Object arg5) {
+    default void trace0(String format, Object arg1, Object arg2, Object arg3, Object arg4, Object arg5) {
         trace0(() -> String.format(format, arg1, arg2, arg3, arg4, arg5));
     }
 
@@ -308,7 +308,7 @@ public interface Log {
      *
      * @param arg1 arg1
      */
-    default void debug1(String format, Object arg1) {
+    default void debug0(String format, Object arg1) {
         debug0(() -> String.format(format, arg1));
     }
 
@@ -318,7 +318,7 @@ public interface Log {
      * @param arg1 arg1
      * @param arg2 arg2
      */
-    default void debug2(String format, Object arg1, Object arg2) {
+    default void debug0(String format, Object arg1, Object arg2) {
         debug0(() -> String.format(format, arg1, arg2));
     }
 
@@ -329,7 +329,7 @@ public interface Log {
      * @param arg2 arg2
      * @param arg3 arg3
      */
-    default void debug3(String format, Object arg1, Object arg2, Object arg3) {
+    default void debug0(String format, Object arg1, Object arg2, Object arg3) {
         debug0(() -> String.format(format, arg1, arg2, arg3));
     }
 
@@ -341,7 +341,7 @@ public interface Log {
      * @param arg3 arg3
      * @param arg4 arg4
      */
-    default void debug4(String format, Object arg1, Object arg2, Object arg3, Object arg4) {
+    default void debug0(String format, Object arg1, Object arg2, Object arg3, Object arg4) {
         debug0(() -> String.format(format, arg1, arg2, arg3, arg4));
     }
 
@@ -354,7 +354,7 @@ public interface Log {
      * @param arg4 arg4
      * @param arg5 arg5
      */
-    default void debug5(String format, Object arg1, Object arg2, Object arg3, Object arg4, Object arg5) {
+    default void debug0(String format, Object arg1, Object arg2, Object arg3, Object arg4, Object arg5) {
         debug0(() -> String.format(format, arg1, arg2, arg3, arg4, arg5));
     }
 
@@ -386,7 +386,7 @@ public interface Log {
      *
      * @param arg1 arg1
      */
-    default void info1(String format, Object arg1) {
+    default void info0(String format, Object arg1) {
         info0(() -> String.format(format, arg1));
     }
 
@@ -396,7 +396,7 @@ public interface Log {
      * @param arg1 arg1
      * @param arg2 arg2
      */
-    default void info2(String format, Object arg1, Object arg2) {
+    default void info0(String format, Object arg1, Object arg2) {
         info0(() -> String.format(format, arg1, arg2));
     }
 
@@ -407,7 +407,7 @@ public interface Log {
      * @param arg2 arg2
      * @param arg3 arg3
      */
-    default void info3(String format, Object arg1, Object arg2, Object arg3) {
+    default void info0(String format, Object arg1, Object arg2, Object arg3) {
         info0(() -> String.format(format, arg1, arg2, arg3));
     }
 
@@ -419,7 +419,7 @@ public interface Log {
      * @param arg3 arg3
      * @param arg4 arg4
      */
-    default void info4(String format, Object arg1, Object arg2, Object arg3, Object arg4) {
+    default void info0(String format, Object arg1, Object arg2, Object arg3, Object arg4) {
         info0(() -> String.format(format, arg1, arg2, arg3, arg4));
     }
 
@@ -432,7 +432,7 @@ public interface Log {
      * @param arg4 arg4
      * @param arg5 arg5
      */
-    default void info5(String format, Object arg1, Object arg2, Object arg3, Object arg4, Object arg5) {
+    default void info0(String format, Object arg1, Object arg2, Object arg3, Object arg4, Object arg5) {
         info0(() -> String.format(format, arg1, arg2, arg3, arg4, arg5));
     }
 
@@ -464,7 +464,7 @@ public interface Log {
      *
      * @param arg1 arg1
      */
-    default void warn1(String format, Object arg1) {
+    default void warn0(String format, Object arg1) {
         warn0(() -> String.format(format, arg1));
     }
 
@@ -474,7 +474,7 @@ public interface Log {
      * @param arg1 arg1
      * @param arg2 arg2
      */
-    default void warn2(String format, Object arg1, Object arg2) {
+    default void warn0(String format, Object arg1, Object arg2) {
         warn0(() -> String.format(format, arg1, arg2));
     }
 
@@ -485,7 +485,7 @@ public interface Log {
      * @param arg2 arg2
      * @param arg3 arg3
      */
-    default void warn3(String format, Object arg1, Object arg2, Object arg3) {
+    default void warn0(String format, Object arg1, Object arg2, Object arg3) {
         warn0(() -> String.format(format, arg1, arg2, arg3));
     }
 
@@ -497,7 +497,7 @@ public interface Log {
      * @param arg3 arg3
      * @param arg4 arg4
      */
-    default void warn4(String format, Object arg1, Object arg2, Object arg3, Object arg4) {
+    default void warn0(String format, Object arg1, Object arg2, Object arg3, Object arg4) {
         warn0(() -> String.format(format, arg1, arg2, arg3, arg4));
     }
 
@@ -510,7 +510,7 @@ public interface Log {
      * @param arg4 arg4
      * @param arg5 arg5
      */
-    default void warn5(String format, Object arg1, Object arg2, Object arg3, Object arg4, Object arg5) {
+    default void warn0(String format, Object arg1, Object arg2, Object arg3, Object arg4, Object arg5) {
         warn0(() -> String.format(format, arg1, arg2, arg3, arg4, arg5));
     }
 
@@ -542,7 +542,7 @@ public interface Log {
      *
      * @param arg1 arg1
      */
-    default void error1(String format, Object arg1) {
+    default void error0(String format, Object arg1) {
         error0(() -> String.format(format, arg1));
     }
 
@@ -552,7 +552,7 @@ public interface Log {
      * @param arg1 arg1
      * @param arg2 arg2
      */
-    default void error2(String format, Object arg1, Object arg2) {
+    default void error0(String format, Object arg1, Object arg2) {
         error0(() -> String.format(format, arg1, arg2));
     }
 
@@ -563,7 +563,7 @@ public interface Log {
      * @param arg2 arg2
      * @param arg3 arg3
      */
-    default void error3(String format, Object arg1, Object arg2, Object arg3) {
+    default void error0(String format, Object arg1, Object arg2, Object arg3) {
         error0(() -> String.format(format, arg1, arg2, arg3));
     }
 
@@ -575,7 +575,7 @@ public interface Log {
      * @param arg3 arg3
      * @param arg4 arg4
      */
-    default void error4(String format, Object arg1, Object arg2, Object arg3, Object arg4) {
+    default void error0(String format, Object arg1, Object arg2, Object arg3, Object arg4) {
         error0(() -> String.format(format, arg1, arg2, arg3, arg4));
     }
 
@@ -588,7 +588,7 @@ public interface Log {
      * @param arg4 arg4
      * @param arg5 arg5
      */
-    default void error5(String format, Object arg1, Object arg2, Object arg3, Object arg4, Object arg5) {
+    default void error0(String format, Object arg1, Object arg2, Object arg3, Object arg4, Object arg5) {
         error0(() -> String.format(format, arg1, arg2, arg3, arg4, arg5));
     }
 
@@ -620,7 +620,7 @@ public interface Log {
      *
      * @param arg1 arg1
      */
-    default void fatal1(String format, Object arg1) {
+    default void fatal0(String format, Object arg1) {
         fatal0(() -> String.format(format, arg1));
     }
 
@@ -630,7 +630,7 @@ public interface Log {
      * @param arg1 arg1
      * @param arg2 arg2
      */
-    default void fatal2(String format, Object arg1, Object arg2) {
+    default void fatal0(String format, Object arg1, Object arg2) {
         fatal0(() -> String.format(format, arg1, arg2));
     }
 
@@ -641,7 +641,7 @@ public interface Log {
      * @param arg2 arg2
      * @param arg3 arg3
      */
-    default void fatal3(String format, Object arg1, Object arg2, Object arg3) {
+    default void fatal0(String format, Object arg1, Object arg2, Object arg3) {
         fatal0(() -> String.format(format, arg1, arg2, arg3));
     }
 
@@ -653,7 +653,7 @@ public interface Log {
      * @param arg3 arg3
      * @param arg4 arg4
      */
-    default void fatal4(String format, Object arg1, Object arg2, Object arg3, Object arg4) {
+    default void fatal0(String format, Object arg1, Object arg2, Object arg3, Object arg4) {
         fatal0(() -> String.format(format, arg1, arg2, arg3, arg4));
     }
 
@@ -666,7 +666,7 @@ public interface Log {
      * @param arg4 arg4
      * @param arg5 arg5
      */
-    default void fatal5(String format, Object arg1, Object arg2, Object arg3, Object arg4, Object arg5) {
+    default void fatal0(String format, Object arg1, Object arg2, Object arg3, Object arg4, Object arg5) {
         fatal0(() -> String.format(format, arg1, arg2, arg3, arg4, arg5));
     }
 }
