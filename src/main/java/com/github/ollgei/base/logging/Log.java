@@ -45,7 +45,7 @@ import org.apache.commons.logging.LogFactory;
  * add default.
  *
  * @author Juergen Hoeller (for the {@code spring-jcl} variant)
- * @author zhangjiawei
+ * @author ollgei
  * @since 5.0
  */
 public interface Log {
@@ -200,7 +200,7 @@ public interface Log {
      */
     void trace(Object message, Throwable t);
 
-    /************* zhangjiawei add  ****************/
+    /************* ollgei add  ****************/
 
     /**
      * Logs a message with trace log level.
