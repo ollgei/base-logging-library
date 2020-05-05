@@ -55,9 +55,11 @@
     <developers>
         <developer>
             <id>ollgei.github.com</id>
-            <name>The Ollgei Project Contributors</name>
+            <name>Ollgei</name>
             <email>ollgei@sina.com</email>
             <url>https://github.com/ollgei</url>
+            <organization>Ollgei Software, Inc.</organization>
+            <organizationUrl>https://github.com/ollgei</organizationUrl>
         </developer>
     </developers>
 
