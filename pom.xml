@@ -12,7 +12,7 @@
 
     <groupId>com.github.ollgei.base</groupId>
     <artifactId>base-logging-library</artifactId>
-    <version>1.0.0.RELEASE</version>
+    <version>1.0.1.RELEASE</version>
     <inceptionYear>2020</inceptionYear>
 
     <licenses>
